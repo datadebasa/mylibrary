@@ -1,12 +1,13 @@
 {
-    "name": "datadebasa/mylibrary",
-    "description": "Library PHP sederhana",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-      "psr-4": {
-        "MyLibrary\\": "src/"
-      }
-    },
-    "require": {}
-  }
+  "require": {
+    "datadebasa/mylibrary": "dev-main"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/datadebasa/mylibrary"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
